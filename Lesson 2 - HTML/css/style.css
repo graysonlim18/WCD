@@ -1,0 +1,41 @@
+/* CSS Document */
+
+body {
+	background-image:url(../images/bg.jpg);
+	color:#FFF;
+}
+
+.container {
+	width:800px;
+	height:500px;
+	background-color:rgba(0,0,0,.4);
+	margin:0 auto;
+}
+
+.header {
+	width:800px;
+	height:100px;
+	background-color:rgba(255,0,0,.4);
+	font-size:36px;
+	text-align:center;
+	line-height:100px;
+}
+
+.leftp {
+	width:160px;
+	height:360px;
+	background-color:rgba(255,255,0,.4);
+	float:right;
+	padding:10px;
+	margin:10px;
+}
+
+.mainp {
+	width:560px;
+	height:360px;
+	background-color:rgba(255,0,255,.4);
+	float:right;
+	padding:10px;
+	margin:10px;
+}
+	
