@@ -1,0 +1,19 @@
+#head
+{
+    text-align: center;
+    background-color: lightblue;
+    color:navy;
+}
+.foot
+{
+    text-align: right;
+    background-color: lightblue;
+}
+#contact
+{
+    color: maroon;
+}
+#add,#add2
+{
+    color:navy;
+}	
