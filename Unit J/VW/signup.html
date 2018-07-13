@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Revisions Bookstore &amp; Cafe - Sign Up</title>
+      <!--
+         Revisions Bookstore and Cafe Sign Up page
+         Filename: signup.html
+      
+         Author:  Grayson Lim Chuan Kai  
+         Date:    13/7/18
+         HTML5 and CSS3 Illustrated Unit J, Visual Workshop
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+         <header>
+            <h1>Revisions Bookstore &amp; Cafe</h1>
+            <div>
+               <img src="images/logo.gif" width="120" height="100" alt="">
+            </div>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="events.html">Events</a></li>
+               <li><a href="releases.html">New Releases</a></li>
+               <li><a href="signup.html">Book Groups</a></li>
+            </ul>
+         </nav>
+         <article id="contentstart">
+            <div class="container">
+               <h2>Book Groups</h2>
+               <h3>Sign Up Form</h3>
+               <form action="results.html">
+                   <fieldset class="contactinfo">
+                       <legend class="legendtext">Contact Information</legend>
+                       First Name <input type="textbox" name="First Name" placeholder="First Name" required><br>
+                       Last Name <input type="textbox" name="Last Name" placeholder="Last Name" required><br>
+                       Email <input type="email" name="Email" placeholder="address@example.com" required><br>
+                       Phone <input type="tel" name="Phone" placeholder="Phone" required><br>
+                   </fieldset>
+                   <fieldset>
+                       <legend class="legendtext">Preferred Contact Method</legend>
+                       <input type="radio" value="Email" name="Preferred Contact Method" checked>Email
+                       <input type="radio" value="Phone" name="Preferred Contact Method">Phone
+                       <input type="radio" value="Either" name="Preferred Contact Method">Either
+                   </fieldset>
+                   <fieldset>
+                       <legend class="legendtext">Topic(s) of interest</legend>
+                       <input type="checkbox" value="African American Writers" name="Topic(s) of interest">African American Writers<br>
+                       <input type="checkbox" value="Mystery" name="Topic(s) of interest">Mystery<br>
+                       <input type="checkbox" value="Science Fiction/Fantasy" name="Topic(s) of interest">Science Fiction/Fantasy<br>
+                       <input type="checkbox" value="Short Fiction" name="Topic(s) of interest">Short Fiction<br>
+                       <input type="checkbox" value="Virginia History" name="Topic(s) of interest">Virginia History<br>
+                       <input type="checkbox" value="Other" name="Topic(s) of interest">Other(Please specify below)<br>
+                   </fieldset>
+                   <fieldset>
+                       <legend class="legendtext">Additional Information</legend>
+                       Questions or topic ideas for new writing groups<br>
+                       <textarea rows="4" cols="50" name="Additional Information"></textarea>
+                   </fieldset>
+                   <br>
+                   <div class="wrapper">
+                   <input type="submit" value="Submit" id="submitbtn">
+                   <input type="reset" value="Clear" id="clearbtn">
+                   </div>
+               </form>
+
+            </div>
+         </article>
+         <aside>
+            <p>Custom brewed coffee and hand-selected books.</p>
+            <p>Special orders are our specialty.</p>
+         </aside>
+         <footer>
+            <p>412 N. 25th St.</p>
+            <p>Richmond, VA 23223</p>
+            <p>(804) 555-2565</p>
+         </footer>
+      </div>
+   </body>
+</html>
